@@ -1,0 +1,209 @@
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+
+    background: linear-gradient(to bottom right, #000000 5%, #0470b9);
+
+}
+
+.navbar {
+    width: 100%;
+    background: #1a1a1a;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    margin-bottom: 40px;
+    margin-top: 0px;
+    border-radius: 0px; 
+   
+    
+   
+}
+
+
+.top5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+    color: white;
+    
+}
+
+#logo {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+    margin-top: -20px;
+   
+}
+
+p{
+    max-width: 800px;  
+    margin: 0 auto;    
+    line-height: 1.8;  
+    text-align: left;   
+    font-size: 20px;   
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;   
+    font-style: normal; 
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+h1{
+    font-family: 'Lexend',sans-serif;
+    font-size: 28px;
+    margin-top: -20px;
+    justify-content: center;
+    display: flex;
+    
+}
+
+h2{
+    font-family: 'Lexend',sans-serif;
+}
+
+
+#img1 {
+    width: 700px;
+    height: auto;
+    display: block;    
+    margin: 0 auto;    
+}
+
+#img2 {
+    width: 700px;
+    height: auto;
+    display: block;    
+    margin: 0 auto;    
+}
+
+#img3 {
+    width: 700px;
+    height: auto;
+    display: block;    
+    margin: 0 auto;    
+}
+
+#img4 {
+    width: 700px;
+    height: auto;
+    display: block;    
+    margin: 0 auto;    
+}
+
+#img5 {
+    width: 700px;
+    height: auto;
+    display: block;    
+    margin: 0 auto;    
+}
+
+#img1:hover {
+    transform: scale(1.10); 
+}
+#img2:hover {
+    transform: scale(1.10); 
+}
+#img3:hover {
+    transform: scale(1.10); 
+}
+#img4:hover {
+    transform: scale(1.10);
+}
+#img5:hover {
+    transform: scale(1.10); 
+}
+.rodape {
+    width: 100%;
+    background: #1a1a1a;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 -4px 10px rgba(0,0,0,0.2);
+    margin-top: 40px;
+    border-radius: 0px; 
+    font-family: 'Lexend',sans-serif;
+    font-size: 12px;
+}
+.profile-dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: auto; /* Isso empurra o botão para a direita */
+   position: absolute;
+   right: 5px;
+   top: 60px;
+}
+
+.seta {
+    font-size: 0.7rem;
+    transition: transform 0.3s; /* Para a seta girar suavemente */
+}
+
+/* Quando o menu estiver aberto, a seta gira */
+.seta.aberta {
+    transform: rotate(180deg);
+}
+ 
+
+.profile-menu {
+    
+    position: absolute;
+    top: 100%;
+    right: 0; 
+    background: white;
+    color: #333; /* ALTERADO: Cor escura para aparecer no fundo branco */
+    border-radius: 5px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    min-width: 180px; /* Largura mínima para os nomes dos jogos */
+    z-index: 1000;   /* Garante que fique na frente das fotos */
+}
+   
+
+
+.profile-menu button {
+    padding: 12px 15px;
+    border: none;
+    background: none;
+    text-align: left;
+    cursor: pointer;
+    color: #333; /* Texto escuro */
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+}
+.profile-menu button:hover {
+    background: rgba(0,0,0,0.1);
+}
+
+.hidden {
+    display: none;
+}
+
+#btn-perfil {
+    background: #1a1a1a;
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    font-weight: 300;
+    background: linear-gradient(135deg, #0470b9 0%, #002f52 100%);
+
+
+}
